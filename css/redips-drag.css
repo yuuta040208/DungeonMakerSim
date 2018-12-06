@@ -1,0 +1,49 @@
+#main-container {
+    margin: 32px;
+}
+
+table {
+	margin: 15px;
+	text-align: center;
+}
+
+/* ダンジョンテーブル */
+#table-dungeon {
+	table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 8px;
+}
+#table-dungeon td {
+	height: 70px;
+	width: 70px;
+    border: 1px solid;
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+/* 部屋テーブル */
+.table-room {
+
+}
+.table-room td {
+    height: 80px;
+    width: 80px;
+}
+
+/* redips-drag */
+div.redips-drag .redips-clone {
+    border-style: none;
+}
+
+
+/* table cells */
+/*div#redips-drag td {
+	height: 64px;
+	width: 64px;
+	padding: 2px;
+}*/
+
+img {
+	width: 60px;
+    height: 60px
+}

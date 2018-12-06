@@ -1,0 +1,47 @@
+#main-container {
+    margin: 32px;
+}
+
+table {
+    margin: 5px;
+    text-align: center;
+}
+
+/* ダンジョンテーブル */
+#table-dungeon {
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 8px;
+}
+#table-dungeon td {
+    height: 68px;
+    width: 68px;
+    border: 1px dashed;
+}
+
+/* 部屋テーブル */
+.table-room {
+}
+.table-room td {
+    height: 68px;
+    width: 68px;
+    padding-top: 5px;
+    margin: 5px;
+}
+
+/* 削除テーブル */
+#table-trash {
+    table-layout: fixed;
+    border-collapse: separate;
+    border-spacing: 8px;
+}
+#table-trash td {
+    border: 1px solid;
+    height: 70px;
+    width: 210px;
+}
+
+img {
+    width: 64px;
+    height: 64px
+}
